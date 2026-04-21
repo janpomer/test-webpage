@@ -25,8 +25,6 @@ jobs:
       # Install pnpm FIRST
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9
 
       # Then install Node (NO cache to avoid pnpm error)
       - name: Setup Node.js
