@@ -1,12 +1,12 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Jan Pomer - Solution Architect",
+  author: "Jan Pomer",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "I’m a dedicated software engineer with strong leadership experience in both Team Lead and Tech Lead roles, with a Master's Degree in Computer Science and Information Technologies from the University of Maribor. As a Team Lead, I mentor and support engineers in sharpening their Java development skills and growing professionally. As a Tech Lead, I guide cross-functional teams, define software architecture, and ensure the successful delivery of scalable, high-quality solutions across blockchain, SaaS, and enterprise domains. I thrive in dynamic environments, promote collaboration, and focus on building products that deliver real value to users and organizations.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "assets/alejandro-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -19,47 +19,69 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Youtube", href: "https://github.com/immois/astro-zen" },
     { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "/zen-og.png",
+  socialImage: "assets/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
-    summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+    name: "Jan Pomer",
+    specialty: "Solution Architect",
+    summary: "Short description about me",
+    email: "jan.pomer@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Teranode Group",
+      position: "Software Architect / Technical Lead",
+      startDate: "May 2025",
+      endDate: "present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "• Leading architecture for blockchain-based systems",
+        "• Developing secure document signing platform (Teranode Sign)",
+        "• Driving scalability, security, and performance",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Equaleyes Solution Lts",
+      position: "Team Lead / Senior Software Engineer",
+      startDate: "Sep 2024",
+      endDate: "present",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "• Leading 10+ engineers, optimizing delivery and team productivity",
+        "• Mentoring developers and supporting career growth",
+        "• Ensuring cross-team collaboration and execution",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "nChain",
+      position: "Team Lead / Senior Software Engineer",
+      startDate: "Oct 2021",
+      endDate: "Aug 2024",
+      summary: [
+        "• Progressed from Engineer to Team Lead managing 10+ developers",
+        "• Delivered blockchain solutions including document signing and data platforms",
+        "• Contributed to scalable blockchain infrastructure (Teranode PoC)",
+      ],
+    },
+    {
+      company: "Inova IT",
+      position: "Software Developer",
+      startDate: "Oct 2018",
+      endDate: "Aug 2020",
+      summary: [
+        "• Built enterprise systems: EV charging API (OCPP), tax systems, loan platform, healthcare solutions",
+        "• Focused on backend development and integrations",
+      ],
+    },
+    {
+      company: "Teletech d.o.o.",
+      position: "Software Developer",
+      startDate: "Oct 2018",
+      endDate: "Aug 2020",
+      summary: [
+        "• Worked on telecom systems, number portability, and secure archiving",
+      ],
     },
   ],
   projects: [
@@ -68,30 +90,33 @@ export const SITE_CONTENT: SiteContent = {
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: "assets/spotifu.png",
     },
     {
       name: "Shopp App",
       summary: "An e-commerce platform that replicates Shopify's key features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      image: "assets/shopify-clon.png",
     },
     {
       name: "ClonTagram",
       summary: "A social network that replicates the features of Instagram",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      image: "assets/clone-ig.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I’m a dedicated software engineer with strong leadership experience in both Team Lead and Tech Lead roles, 
+      with a Master's Degree in Computer Science and Information Technologies from the University of Maribor. 
+      As a Team Lead, I mentor and support engineers in sharpening their Java development skills and growing professionally. 
+      As a Tech Lead, I guide cross-functional teams, define software architecture, and ensure the successful 
+      delivery of scalable, high-quality solutions across blockchain, SaaS, and enterprise domains. I thrive in dynamic 
+      environments, promote collaboration, and focus on building products that deliver real value to users and organizations.
     `,
-    image: "/alejandro-big.jpg",
+    image: "assets/alejandro-big.jpg",
   },
 };
 
