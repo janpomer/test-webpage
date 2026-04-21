@@ -1,4 +1,4 @@
-name: Deploy Next.js site to Pages
+name: Deploy Astro site to Pages
 
 on:
   push:
@@ -22,31 +22,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Install pnpm FIRST
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
+        with:
+          version: 9
 
-      # Then install Node (NO cache to avoid pnpm error)
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 22
 
-      # Optional sanity check
       - name: Verify pnpm
         run: pnpm --version
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build Next.js
+      - name: Build Astro
         run: pnpm build
 
-      # Upload the static export folder
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./dist   # ⚠️ Astro outputs to /dist, not /out
 
   deploy:
     needs: build
