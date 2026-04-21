@@ -83,25 +83,20 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "assets/spotifu.png",
+      name: "Teranode Sign",
+      summary:
+        "Blockchain-based document signing service ensuring secure, legally compliant PDF signatures.",
+      linkPreview: "https://products.teranode.group/",
+      linkSource: "",
+      image: "assets/teranode-sign.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "assets/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "assets/clone-ig.png",
+      name: "Teranode POC",
+      summary:
+        "Engineered for Scalability, Primed for Growth: Unleash Innovation with Uncompromised Data Integrity, Powered by BSV’s Teranode Technology.",
+      linkPreview: "https://bsvassociation.org/protocol/teranode/",
+      linkSource: "",
+      image: "assets/teranode-poc.png",
     },
   ],
   about: {
