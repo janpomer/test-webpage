@@ -6,18 +6,15 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "I’m a dedicated software engineer with strong leadership experience in both Team Lead and Tech Lead roles, with a Master's Degree in Computer Science and Information Technologies from the University of Maribor. As a Team Lead, I mentor and support engineers in sharpening their Java development skills and growing professionally. As a Tech Lead, I guide cross-functional teams, define software architecture, and ensure the successful delivery of scalable, high-quality solutions across blockchain, SaaS, and enterprise domains. I thrive in dynamic environments, promote collaboration, and focus on building products that deliver real value to users and organizations.",
   lang: "en",
-  siteLogo: "assets/alejandro-small.jpg",
+  siteLogo: "assets/jan-pomer.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/jan-pomer-595122b7" },
+    { text: "Github", href: "https://github.com/janpomer" },
   ],
   socialImage: "assets/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -26,7 +23,7 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Jan Pomer",
-    specialty: "Solution Architect",
+    specialty: "Solution Architect / Senior Software Engineer",
     summary: "Short description about me",
     email: "jan.pomer@gmail.com",
   },
@@ -116,7 +113,7 @@ export const SITE_CONTENT: SiteContent = {
       delivery of scalable, high-quality solutions across blockchain, SaaS, and enterprise domains. I thrive in dynamic 
       environments, promote collaboration, and focus on building products that deliver real value to users and organizations.
     `,
-    image: "assets/alejandro-big.jpg",
+    image: "assets/jan-pomer.png",
   },
 };
 
