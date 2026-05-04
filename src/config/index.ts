@@ -23,13 +23,14 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Jan Pomer",
-    specialty: "Solution Architect / Senior Software Engineer",
-    summary: "Short description about me",
+    specialty: "Solution Architect / Technical Lead",
+    summary: "Software Architect and Technical Lead specializing in scalable blockchain and enterprise solutions. I bridge the gap between complex system design and high-performing engineering teams.",
     email: "jan.pomer@gmail.com",
   },
-  experience: [
+  experiences: [
     {
       company: "Teranode Group",
+      logo: "assets/teranode-logo.png",
       position: "Software Architect / Technical Lead",
       startDate: "May 2025",
       endDate: "present",
@@ -38,9 +39,11 @@ export const SITE_CONTENT: SiteContent = {
         "• Developing secure document signing platform (Teranode Sign)",
         "• Driving scalability, security, and performance",
       ],
+      href: "https://teranode.group",
     },
     {
-      company: "Equaleyes Solution Lts",
+      company: "Equaleyes Solution Ltd",
+      logo: "assets/eq-logo.png",
       position: "Team Lead / Senior Software Engineer",
       startDate: "Sep 2024",
       endDate: "present",
@@ -49,9 +52,11 @@ export const SITE_CONTENT: SiteContent = {
         "• Mentoring developers and supporting career growth",
         "• Ensuring cross-team collaboration and execution",
       ],
+      href: "https://equaleyes.com/",
     },
     {
       company: "nChain",
+      logo: "assets/nchain-logo.svg",
       position: "Team Lead / Senior Software Engineer",
       startDate: "Oct 2021",
       endDate: "Aug 2024",
@@ -60,9 +65,11 @@ export const SITE_CONTENT: SiteContent = {
         "• Delivered blockchain solutions including document signing and data platforms",
         "• Contributed to scalable blockchain infrastructure (Teranode PoC)",
       ],
+      href: "https://nchain.com/",
     },
     {
       company: "Inova IT",
+      logo: "assets/inova-logo.png",
       position: "Software Developer",
       startDate: "Oct 2018",
       endDate: "Aug 2020",
@@ -70,15 +77,18 @@ export const SITE_CONTENT: SiteContent = {
         "• Built enterprise systems: EV charging API (OCPP), tax systems, loan platform, healthcare solutions",
         "• Focused on backend development and integrations",
       ],
+      href: "https://www.inova.si/",
     },
     {
       company: "Teletech d.o.o.",
+      logo: "assets/teletech-logo.png",
       position: "Software Developer",
       startDate: "Oct 2018",
       endDate: "Aug 2020",
       summary: [
         "• Worked on telecom systems, number portability, and secure archiving",
       ],
+      href: ""
     },
   ],
   projects: [
@@ -100,16 +110,10 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
   about: {
-    description: `
-      I’m a dedicated software engineer with strong leadership experience in both Team Lead and Tech Lead roles, 
-      with a Master's Degree in Computer Science and Information Technologies from the University of Maribor. 
-      As a Team Lead, I mentor and support engineers in sharpening their Java development skills and growing professionally. 
-      As a Tech Lead, I guide cross-functional teams, define software architecture, and ensure the successful 
-      delivery of scalable, high-quality solutions across blockchain, SaaS, and enterprise domains. I thrive in dynamic 
-      environments, promote collaboration, and focus on building products that deliver real value to users and organizations.
-    `,
+    description: [
+      "I am a dedicated Software Engineer and Technical Lead with a Master’s Degree in Computer Science from the University of Maribor. With over a decade of experience across blockchain, SaaS, and enterprise domains, I specialize in architecting scalable, high-quality solutions that bridge the gap between complex technology and real-world value.",
+      "Currently, I serve as a Software Architect and Tech Lead at Teranode Group, where I lead the development of secure, blockchain-based document signing services. My leadership extends beyond code; as a Team Lead for over 10+ engineers, I am passionate about mentoring the next generation of Java developers, optimizing cross-functional workflows, and fostering professional growth within high-performing teams."
+    ],
     image: "assets/jan-pomer.png",
   },
 };
-
-// #5755ff

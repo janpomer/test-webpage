@@ -4,12 +4,13 @@
   --font-sans: var(--font-be-vietnam-pro);
   --font-serif: var(--font-gabarito);
 
-  --color-primary: #2563eb;
-  --color-secondary: #0F172A;
-  --color-accent: #14B8A6;
-  --color-neutral: #1E293B;
-  --color-white: #F8FAFC;
-  --color-card-white: #f1f1f4;
+  --color-background: #FEFCFB;
+  --color-primary: #001F54;
+  --color-secondary: #034078;
+  --color-accent: #1282A2;
+  --color-neutral: #EDF2F7;
+  --color-text: #1A202C;
+  --color-card-white: #FEFCFB;
   --color-black: #0e141b;
 
   --text-xs: 0.875rem;

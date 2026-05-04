@@ -17,16 +17,16 @@ const { projects } = Astro.props;
       return (
         <div
           style={`top: ${top}px;`}
-          class="sticky mb-12 rounded-2xl border border-accent/20 bg-white"
+          class="sticky mb-12 rounded-2xl bg-neutral border border-accent"
         >
-          <div class="bg-difu relative z-1 grid h-145 w-full grid-rows-2 rounded-2xl bg-card-white before:absolute before:inset-0 before:z-[-1] before:rounded-2xl before:bg-[url(/raja.png)] before:bg-size-[128px] before:bg-repeat before:opacity-5 before:content-[''] sm:grid-cols-2 sm:grid-rows-1 md:h-96">
+          <div class="bg-difu relative z-1 grid h-145 w-full grid-rows-2 rounded-2xl bg-card-background before:absolute before:inset-0 before:z-[-1] before:rounded-2xl before:bg-[url(/raja.png)] before:bg-size-[128px] before:bg-repeat before:opacity-5 before:content-[''] sm:grid-cols-2 sm:grid-rows-1 md:h-96">
             <div class="px-6 pt-12">
-              <h3 class="mb-5 font-serif text-3xl font-medium text-accent">
+              <h3 class="mb-5 font-serif text-3xl font-medium text-primary">
                 {name}
               </h3>
-              <p class="text-base text-neutral">{summary}</p>
-              <div class="flex gap-5 pt-10 text-neutral">
-                { linkSource != "" ?
+              <p class="text-base text-text">{summary}</p>
+              <div class="flex gap-5 pt-10 text-text">
+                { linkSource ?
                 <a
                   href={linkSource}
                   target="_blank"
@@ -36,7 +36,7 @@ const { projects } = Astro.props;
                 </a>
                   : null }
 
-                { linkPreview != "" ?
+                { linkPreview ?
                 <a
                   href={linkPreview}
                   target="_blank"
@@ -49,7 +49,7 @@ const { projects } = Astro.props;
             </div>
             <div class="flex items-end justify-end overflow-hidden">
               <Image
-                class="h-full w-[95%] rounded-ss-xl rounded-ee-2xl object-none object-top-left sm:h-[85%] sm:w-full"
+                class="h-full w-[95%] rounded-ss-xl rounded-ee-2xl object-none border-t border-l border-accent object-top-left sm:h-[85%] sm:w-full"
                 src={`${import.meta.env.BASE_URL}${image}`}
                 alt={name}
                 width="736"

@@ -9,11 +9,25 @@ const { description, image, name } = Astro.props;
 ---
 
 <Section text="About Me" href="about">
-  <div class="flex flex-col items-center gap-12 md:flex-row md:gap-8">
-    <p class="w-auto text-base text-neutral md:pr-5">{description}</p>
-    <div class="h-64 w-64 shrink-0 rotate-[5deg] text-accent p-4 border-1  md:rotate-[7deg]">
+  <div class="flex flex-col items-center gap-12 md:flex-row md:gap-12">
+
+
+    <div class="flex-end">
+      {Array.isArray(description) ? (
+
+        description.map((section) => (
+          <p class="w-auto text-base text-justify text-text md:pr-5">{section}</p>
+          <br/>
+        ))
+      ) : (
+        <p class="w-auto text-base text-text md:pr-5">{description}</p>
+      )}
+    </div>
+
+
+    <div class="h-64 w-64 shrink-0 border border-accent rounded-full">
       <Image
-        class="object-cover"
+        class="object-contain rounded-full"
         src={`${import.meta.env.BASE_URL}${image}`}
         width="260"
         height="260"

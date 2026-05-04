@@ -9,7 +9,7 @@ const { siteLogo, navLinks } = Astro.props;
 ---
 
 <header
-  class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b-1 border-neutral/20"
+  class="sticky top-0 z-50 bg-neutral border-b-1 border-accent"
 >
   <div
     class="mx-auto flex max-w-5xl animate-slide-in justify-between px-5 py-6"
@@ -27,7 +27,7 @@ const { siteLogo, navLinks } = Astro.props;
     <button
       type="button"
       id="menu-button"
-      class="px-1.5 text-neutral sm:hidden"
+      class="px-1.5 text-text sm:hidden"
       aria-expanded="false"
       aria-controls="main-menu"
     >
@@ -35,7 +35,7 @@ const { siteLogo, navLinks } = Astro.props;
     </button>
 
     <nav
-      class="absolute top-20 right-5 hidden rounded-xl border border-neutral/40 bg-white px-4 py-5 text-neutral sm:static sm:block sm:border-0 sm:bg-transparent sm:p-0"
+      class="absolute top-20 right-5 hidden rounded-xl border border-accent bg-background px-4 py-5 text-text sm:static sm:block sm:border-0 sm:bg-transparent sm:p-0"
       id="main-menu"
     >
       <ul class="gap-2 sm:flex">
