@@ -10,9 +10,9 @@ const { experience } = Astro.props;
 const { company, logo, position, startDate, endDate, summary, href } = experience;
 ---
 <div class="p-6 flex flex-row gap-4 rounded-xl">
-  <div>
+  <div class="h-12 w-12 border border-accent rounded-full overflow-hidden">
     <Image
-      class="object-contain border border-accent rounded-full h-12 w-12"
+      class="mx-auto h-12 w-12 object-contain"
       src={`${import.meta.env.BASE_URL}${logo}`}
       width="260"
       height="260"

@@ -2,13 +2,6 @@
 
 ## 🚀 Getting Started
 
-Clone this repository to your local machine using Git.
-
-```scheme
-git clone https://github.com/immois/astro-zen.git
-cd astro-zen
-```
-
 | Command        | Action                                       |
 | :------------- | :------------------------------------------- |
 | `pnpm install` | Installs dependencies                        |
